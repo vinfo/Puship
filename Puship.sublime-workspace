@@ -271,13 +271,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -339,8 +332,17 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/D/Movilidad/Puship",
+		"/D/Movilidad/Puship/www",
+		"/D/Movilidad/Puship/www/js"
+	],
 	"file_history":
 	[
+		"/D/Movilidad/Puship/www/index.html",
+		"/D/Movilidad/Puship/www/js/index.js",
+		"/D/Movilidad/Puship/www/config.xml",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/config.xml",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/js/load.js",
 		"/D/Movilidad/BuffetExpressPhoneGap/www/js/index.js",
@@ -465,10 +467,7 @@
 		"/D/wamp/www/rolformados_puertas/entrada.php",
 		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/index.html",
 		"/C/Mi Informacion/Programacion/PHP/Plantillas WEB/Administrativas/DulceAdmin/HTML/tables.html",
-		"/C/Users/odc/Desktop/D&D.html",
-		"/C/Users/odc/Desktop/Gloria Arango.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/politicas.html",
-		"/D/Movilidad/BuffetExpressPhoneGap/www/templates/mapa.html"
+		"/C/Users/odc/Desktop/D&D.html"
 	],
 	"find":
 	{
@@ -489,6 +488,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"puship",
+			"dialogs",
 			"v1/authenticate/",
 			"token",
 			"Detectando zona",
@@ -614,8 +615,6 @@
 			"mainController",
 			"navigator.notification.alert",
 			"navigator.notification",
-			"mainController",
-			"avigator.notification.alert",
 			"mainController"
 		],
 		"highlight": false,
@@ -671,37 +670,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
