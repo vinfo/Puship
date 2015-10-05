@@ -52,7 +52,7 @@ var app = {
 		Puship = window.plugins.puship;
 		Puship.EnableLog = true;
 		Puship.EnableHtmlLog = true;
-		Puship.PushipAppId = "Hb9pWkaMnKWbrTT"; // I.E.: puship_id = "h1mCVGaP9dtGnwG"
+		Puship.PushipAppId = "J8imgDWJV9kOvuV"; // I.E.: puship_id = "h1mCVGaP9dtGnwG"
 		Puship.Common.Log("device uuid: " + device.uuid);
 		
 		Puship.Common.OnPushReceived(function(event) {
@@ -65,7 +65,7 @@ var app = {
 		});
 
 		if (Puship.Common.GetCurrentOs()==Puship.OS.ANDROID){
-			var GCMCode = "301183688387"; // This is the senderID provided by Google. I.E.: "28654934133"
+			var GCMCode = "746109479988"; // This is the senderID provided by Google. I.E.: "28654934133"
 			Puship.GCM.Register(GCMCode,
 			{
 				successCallback: function (pushipresult){
